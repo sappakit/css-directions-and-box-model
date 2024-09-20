@@ -1,1 +1,36 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+}
+.lightgrey {
+  border: 16px solid lightgrey;
+  height: 100%;
+}
+
+.black {
+  border: 16px solid black;
+  height: 100%;
+}
+
+.crimson {
+  border: 24px solid crimson;
+  height: 100%;
+}
+
+.khaki {
+  border: 10px solid khaki;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+
+  p {
+    font-size: 72px;
+  }
+}
