@@ -1,1 +1,36 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #ffffff;
+}
+nav {
+  background-color: #92aabd;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+
+  h1 {
+    font-size: 32px;
+    color: #183b56;
+  }
+}
+
+.Dialog {
+  border: 3px solid #183b56;
+  width: 536px;
+  height: auto;
+  top: 542px;
+  left: 55px;
+  padding: 30px;
+  margin: 50px 60px;
+  color: #183b56;
+
+  p {
+    margin-top: 15px;
+  }
+}
