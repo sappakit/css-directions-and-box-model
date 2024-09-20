@@ -1,1 +1,36 @@
 /* Start coding here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.lightgrey-box {
+  width: 100vw;
+  height: 100vh;
+  border: 16px solid lightgrey;
+}
+
+.black-box {
+  width: 100%;
+  height: 100%;
+  border: 16px solid black;
+}
+
+.crimson-box {
+  width: 100%;
+  height: 100%;
+  border: 24px solid crimson;
+}
+
+.khaki-box {
+  background-color: khaki;
+  width: 100%;
+  height: 100%;
+}
+
+.techup-text {
+  text-align: center;
+  padding: 20px;
+  font-size: 3rem;
+}
